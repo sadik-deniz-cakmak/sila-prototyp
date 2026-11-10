@@ -22,7 +22,7 @@ python -m http.server 8765
 
 **Auf einem Tablet:** Offline-Speicher (Service Worker) funktionieren nur über HTTPS oder `localhost`. Eine Adresse wie `http://192.168.…` aus dem WLAN reicht dafür nicht. Es gibt zwei Wege:
 
-- Die App auf einer HTTPS-Adresse bereitstellen. Seit 10.11.2026 liegt sie unter https://dytst7x8b6-prog.github.io/sila-prototyp/ (GitHub Pages).
+- Die App auf einer HTTPS-Adresse bereitstellen. Seit 10.11.2026 liegt sie unter https://sadik-deniz-cakmak.github.io/sila-prototyp/ (GitHub Pages).
 - Das Tablet per USB anschließen und in Chrome unter `chrome://inspect` die Portweiterleitung für 8765 einschalten. Dann öffnet das Tablet die App als `localhost`.
 
 Danach im Chrome-Menü „Zum Startbildschirm hinzufügen" wählen. Die Startseite zeigt unter „Offline-Speicher", ob der Browser den Speicher dauerhaft zugesagt hat.
