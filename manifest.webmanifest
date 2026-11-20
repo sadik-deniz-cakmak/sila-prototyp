@@ -1,13 +1,13 @@
 {
-  "name": "Sila Triage-Prototyp",
+  "name": "Sila – Verständigung bei Hajj und Umrah",
   "short_name": "Sila",
-  "description": "Triage-Übersetzer, Klick-Prototyp v0.1 (Demo)",
+  "description": "MVP v0.6 (Demo): Selbstauskunft und Gespräch in den Sprachen der Pilger, mit einer gemeinsamen Übergabe",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "orientation": "any",
-  "background_color": "#f7f6f2",
-  "theme_color": "#f7f6f2",
+  "background_color": "#f5f3ee",
+  "theme_color": "#f5f3ee",
   "icons": [
     { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
   ]

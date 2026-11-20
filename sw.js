@@ -1,7 +1,9 @@
 /* Sila – Service Worker: hält alle Dateien für den Offline-Betrieb vor. */
-var CACHE = 'sila-v0.4.0';
+var CACHE = 'sila-v0.6.0';
 var FLAGS = ['gb', 'us', 'de', 'at', 'ch', 'pk', 'in', 'bd', 'id', 'tr', 'ir', 'ng', 'ne', 'sn', 'ml', 'fr'];
-var FILES = ['./', 'index.html', 'styles.css', 'drafts.js', 'content.js', 'app.js', 'vendor/qrcode.js', 'manifest.webmanifest', 'icon.svg']
+var LANGS = ['ar', 'ur', 'id', 'tr', 'bn', 'fa', 'ha', 'fr'];
+var FILES = ['./', 'index.html', 'styles.css', 'content.js', 'app.js', 'vendor/qrcode.js', 'manifest.webmanifest', 'icon.svg']
+  .concat(LANGS.map(function (c) { return 'lang/' + c + '.js'; }))
   .concat(FLAGS.map(function (c) { return 'vendor/flags/' + c + '.svg'; }))
   .concat(['vendor/fonts/fonts.css'])
   .concat([300, 400, 600, 700].reduce(function (a, w) {
@@ -20,9 +22,11 @@ self.addEventListener('activate', function (e) {
 
 // Mit Netz: immer die aktuelle Fassung laden und den Speicher auffrischen.
 // Ohne Netz: aus dem Speicher. So zeigt der Prototyp nach Änderungen keine alte Version.
+// „no-cache" lässt den Browser beim Server nachfragen, statt eine ältere Kopie aus seinem
+// eigenen Zwischenspeicher zu nehmen (sonst blieben z. B. Sprachdateien bis zu einer Stunde alt).
 self.addEventListener('fetch', function (e) {
   if (e.request.method !== 'GET' || new URL(e.request.url).origin !== self.location.origin) return;
-  e.respondWith(fetch(e.request).then(function (resp) {
+  e.respondWith(fetch(e.request, { cache: 'no-cache' }).then(function (resp) {
     if (resp && resp.ok) {
       var copy = resp.clone();
       var key = new URL(e.request.url);
