@@ -175,7 +175,7 @@
     "t_finger": "Zan sa wata ƙaramar na'ura a yatsanku. Ba za ku ji ciwo ba.",
     "t_breathe_deep": "Don Allah ku ja dogon numfashi, sannan ku fitar da shi.",
     "t_needle": "Zan sa ƙaramar allura a hannunku. Za ku ji ciwo na ɗan lokaci kaɗan.",
-    "t_uncover": "Ina buƙatar buɗe wannan wurin a jikinku domin in duba ku. Shin hakan ya yi daidai?",
+    "t_uncover": "Ina buƙatar in buɗe tufafinku a wannan wurin domin in duba ku. Shin kun yarda?",
     "t_ok_q": "Shin hakan ya yi muku daidai?",
     "t_family_q": "Shin akwai wani daga cikin ƴan'uwanku ko mai rakiya tare da ku?",
     "t_card": "Don Allah ku nuna min katin shaidarku na alhazai ko awarwaron hannu na tawagarku.",

@@ -168,7 +168,7 @@
     "t_finger": "Saya memasang penjepit kecil di jari Anda. Ini tidak sakit.",
     "t_breathe_deep": "Silakan tarik napas dalam-dalam, lalu buang napas.",
     "t_needle": "Saya memasukkan jarum kecil ke lengan Anda. Ini terasa sakit sebentar.",
-    "t_uncover": "Saya perlu membuka pakaian di bagian tubuh Anda ini untuk memeriksa Anda. Apakah boleh?",
+    "t_uncover": "Saya perlu membuka sebagian pakaian Anda di bagian tubuh ini untuk memeriksa Anda. Apakah boleh?",
     "t_ok_q": "Apakah Anda bersedia?",
     "t_family_q": "Apakah ada anggota keluarga atau pendamping yang bersama Anda?",
     "t_card": "Mohon tunjukkan kartu jemaah Anda atau gelang rombongan Anda kepada saya.",

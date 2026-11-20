@@ -172,7 +172,7 @@
     "t_finger": "Je mets une petite pince sur votre doigt. Cela ne fait pas mal.",
     "t_breathe_deep": "Inspirez et expirez profondément, s’il vous plaît.",
     "t_needle": "Je mets une petite aiguille dans votre bras. Cela fait mal un court instant.",
-    "t_uncover": "Je dois découvrir cette partie de votre corps pour vous examiner. Êtes-vous d’accord ?",
+    "t_uncover": "Je dois enlever ou écarter les vêtements sur cette partie de votre corps pour vous examiner. Êtes-vous d’accord ?",
     "t_ok_q": "Êtes-vous d’accord avec cela ?",
     "t_family_q": "Est-ce qu’un membre de votre famille ou une autre personne vous accompagne ?",
     "t_card": "Montrez-moi votre carte de pèlerin ou le bracelet de votre groupe, s’il vous plaît.",
